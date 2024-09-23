@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #42aefb;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.about img {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.about {
+    background: url('Desktop/MMC5277/m5-hw5-eidam-taylorann/bush.png') repeat;
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #42aefb;
+    color: white;
+}
