@@ -44,17 +44,20 @@ main {
 
 .sidebar ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .sidebar ul li {
-    margin: 10px 0;
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons */
 }
-.sidebar ul li img {
-    width: 32px;
+
+.sidebar ul li img, .sidebar ul li i {
+    width: 32px; /* Adjust icon size */
     height: auto;
-    margin-right: 10px;
     vertical-align: middle;
 }
+
 
 footer {
     text-align: center;
